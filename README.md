@@ -43,7 +43,7 @@ Training an object detector from scratch can take days, even when using multiple
 
 You can find models to download from this [model zoo](https://github.com/bourdakos1/Custom-Object-Detection/blob/master/object_detection/g3doc/detection_model_zoo.md). Each model varies in accuracy and speed. I used `faster_rcnn_resnet101_coco` for the demo.
 
-Extract the files and move all the `model.ckpt` to our models directory.
+Extract the files and move all the `model.ckpt` to ./object_detection/models directory.
 
 >_**Note:** If you don't use `faster_rcnn_resnet101_coco`, replace `faster_rcnn_resnet101.config` with the corresponding [config file](https://github.com/bourdakos1/Custom-Object-Detection/tree/master/object_detection/samples/configs)._
 
